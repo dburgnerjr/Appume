@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.danielburgnerjr.appume"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_appume"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <!-- Splash screen -->
+        <activity
+            android:name="com.danielburgnerjr.appume.AppumeSplash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.danielburgnerjr.appume.Appume"
+            android:label="@string/app_name"
+            android:theme="@style/ListViewStyle" >
+        </activity>
+        <activity
+			android:name=".WhatIsAppume"
+			android:label="What Is An Appume?"
+			android:theme="@style/AppBaseTheme" >
+		</activity>
+		<activity
+			android:name=".WhoAmI"
+			android:label="Who Am I?"
+			android:theme="@style/AppBaseTheme" >
+		</activity>
+		<activity
+			android:name=".Certifications"
+			android:label="Certifications"
+			android:theme="@style/AppBaseTheme" >
+		</activity>
+		<activity
+			android:name=".Skills"
+			android:label="Skills"
+			android:theme="@style/AppBaseTheme" >
+		</activity>
+		<activity
+			android:name=".Education"
+			android:label="Education"
+			android:theme="@style/AppBaseTheme" >
+		</activity>
+		<activity
+			android:name=".Experience"
+			android:label="Experience"
+			android:theme="@style/ListViewStyle" >
+		</activity>
+		<activity
+			android:name=".ExpSAIC"
+			android:label="SAIC"
+			android:theme="@style/ExperienceTheme" >
+		</activity>
+		<activity
+			android:name=".ExpTruestone"
+			android:label="Truestone"
+			android:theme="@style/ExperienceTheme" >
+		</activity>
+		<activity
+			android:name=".ExpUSPTO"
+			android:label="USPTO"
+			android:theme="@style/ExperienceTheme" >
+		</activity>
+		<activity
+			android:name=".ExpNorfolkState"
+			android:label="Norfolk State University"
+			android:theme="@style/ExperienceTheme" >
+		</activity>
+		<activity
+			android:name=".ExpIkeWCS"
+			android:label="U. S. Navy (USS Dwight D. Eisenhower)"
+			android:theme="@style/ExperienceTheme" >
+		</activity>
+		<activity
+			android:name=".ExpIkeMT"
+			android:label="U. S. Navy (USS Dwight D. Eisenhower)"
+			android:theme="@style/ExperienceTheme" >
+		</activity>
+		<activity
+			android:name=".ExpIkePatArm"
+			android:label="U. S. Navy (USS Dwight D. Eisenhower)"
+			android:theme="@style/ExperienceTheme" >
+		</activity>
+		<activity
+			android:name=".Recommendations"
+			android:label="Recommendations"
+			android:theme="@style/ListViewStyle" >
+		</activity>
+		<activity
+			android:name=".RecJermaineJemmott"
+			android:label="Jermaine Jemmott"
+			android:theme="@style/AppBaseTheme" >
+		</activity>
+		<activity
+			android:name=".RecFrankBird"
+			android:label="Frank M. Bird"
+			android:theme="@style/AppBaseTheme" >
+		</activity>
+		<activity
+			android:name=".RecLeeAsh"
+			android:label="Lee Ash"
+			android:theme="@style/AppBaseTheme" >
+		</activity>
+		<activity
+			android:name=".ContactMe"
+			android:label="Contact Me"
+			android:theme="@style/ListViewStyle" >
+		</activity>
+    </application>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+</manifest>

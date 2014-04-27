@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#D1EEEE"
+    tools:context=".Appume" >
+
+    <ImageView
+      	android:id="@+id/imgBanner"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:src="@drawable/appume_banner" />
+ 
+	<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_below="@+id/imgBanner"
+	    android:background="#D1EEEE" >
+
+    	<RelativeLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content" >
+      
+      <TextView
+            android:id="@+id/expikewcs_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+		    android:text="Work Center Supervisor\t\t\t2008-2009"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+      <TextView
+            android:id="@+id/expikewcs_comploc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expikewcs_header"
+            android:text="U. S. Navy (USS Dwight D. Eisenhower)\nNorfolk, VA"
+            android:textSize="16sp" />
+    
+        <TextView
+            android:id="@+id/expikewcs_desc_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expikewcs_comploc"
+            android:text="*  Provided knowledge and experience to six employees in all aspects of the organization's maintenance program, which resulted in completion of 60 maintenance requirements and a 100% score during an inspection"
+            android:textSize="16sp" />
+
+		<TextView
+            android:id="@+id/expikewcs_desc_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expikewcs_desc_1"
+            android:text="*  Prepared Welcome Aboard packages for over 150 newly assigned employees with resources to relocate and adapt into the new organization"
+            android:textSize="16sp" />
+		
+		</RelativeLayout>
+	</ScrollView>
+</RelativeLayout>

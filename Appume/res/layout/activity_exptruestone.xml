@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#D1EEEE"
+    tools:context=".Appume" >
+
+    <ImageView
+      	android:id="@+id/imgBanner"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:src="@drawable/appume_banner" />
+ 
+	<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_below="@+id/imgBanner"
+	    android:background="#D1EEEE" >
+
+    	<RelativeLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content" >
+        
+        <TextView
+            android:id="@+id/exptruestone_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+		    android:text="Software Engineer\t\t\t\t2011-2012"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/exptruestone_comploc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/exptruestone_header"
+            android:text="Truestone\t\t\t\t\tSuffolk, VA"
+            android:textSize="16sp" />
+    
+        <TextView
+            android:id="@+id/exptruestone_desc_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/exptruestone_comploc"
+            android:text="*  Participated in software requirement, preliminary and critical design, integration readiness and software acceptance reviews"
+            android:textSize="16sp" />
+
+		<TextView
+            android:id="@+id/exptruestone_desc_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/exptruestone_desc_1"
+            android:text="*  Developed interfaces using Java Web Services, Java Application Server, J2EE and Java Message Service with a focus on Service Oriented Architecture"
+            android:textSize="16sp" />
+		
+		<TextView
+            android:id="@+id/exptruestone_desc_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/exptruestone_desc_2"
+            android:text="*  Developed test applications for system data validation and testing"
+            android:textSize="16sp" />
+		
+		<TextView
+            android:id="@+id/exptruestone_desc_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/exptruestone_desc_3"
+            android:text="*  Updated and enhanced existing interfaces and system services to provide greater usability and productivity of supported applications"
+            android:textSize="16sp" />
+		
+		<TextView
+            android:id="@+id/exptruestone_desc_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/exptruestone_desc_4"
+            android:text="*  Performed subsystem definition, preliminary and detailed design, design implementation, subsystem and system integration, and tests for a subsystem"
+            android:textSize="16sp" />
+		
+		<TextView
+            android:id="@+id/exptruestone_desc_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/exptruestone_desc_5"
+            android:text="*  Provided subject matter expertise and engineering support to functional development personnel"
+            android:textSize="16sp" />
+
+		</RelativeLayout>
+	</ScrollView>
+</RelativeLayout>

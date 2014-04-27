@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#D1EEEE"
+    tools:context=".Appume" >
+
+   <ImageView
+      	android:id="@+id/imgBanner"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:src="@drawable/appume_banner" />
+ 
+   <TextView
+	    android:id="@+id/rec_jermainejemmott_header"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/imgBanner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+		android:text="Jermaine Jemmott"
+	    android:textSize="20sp" />
+	
+	<TextView
+	    android:id="@+id/rec_jermainejemmott_txt_1"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rec_jermainejemmott_header"
+        android:layout_marginTop="56dp"
+        android:text="Daniel was the cornerstone of my material condition division. His meticulous attention to detail and &apos;can do&apos; attitude was very infectious and it showed by the interactions with the Sailors under his leadership."
+        android:textSize="14sp" />
+	
+	<TextView
+	    android:id="@+id/rec_jermainejemmott_txt_2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/rec_jermainejemmott_txt_1"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="50dp"
+	    android:text="Daniel represents the epitome of a dynamic leader, mentor, superb manager and professional. I would welcome him back to my organization any day."
+	    android:textSize="14sp" />
+	
+</RelativeLayout>

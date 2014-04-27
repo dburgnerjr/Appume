@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#D1EEEE"
+    tools:context=".Appume" >
+
+    <ImageView
+      	android:id="@+id/imgBanner"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:src="@drawable/appume_banner" />
+ 
+	<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_below="@+id/imgBanner"
+	    android:background="#D1EEEE" >
+
+    	<RelativeLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content" >
+        
+        <TextView
+            android:id="@+id/expnsu_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+		    android:text="Laboratory Assistant\t\t\t\t2010"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/expnsu_comploc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expnsu_header"
+            android:text="Norfolk State University\nNorfolk, VA"
+            android:textSize="16sp" />
+    
+        <TextView
+            android:id="@+id/expnsu_desc_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expnsu_comploc"
+            android:text="*  Developed desktop application that allowed an user to read an electronic medical record written in XML"
+            android:textSize="16sp" />
+
+		<TextView
+            android:id="@+id/expnsu_desc_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expnsu_desc_1"
+            android:text="*  Authored three papers that were published in three separate journals"
+            android:textSize="16sp" />
+		
+		<TextView
+            android:id="@+id/expnsu_desc_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expnsu_desc_2"
+            android:text="*  Presented two papers on behalf of one professor and five undergraduate students at a conference in Las Vegas, NV"
+            android:textSize="16sp" />
+		
+		<TextView
+            android:id="@+id/expnsu_desc_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expnsu_desc_3"
+            android:text="*  Assisted faculty in research and tutoring"
+            android:textSize="16sp" />
+		
+		<TextView
+            android:id="@+id/expnsu_desc_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expnsu_desc_4"
+            android:text="*  Mentored undergraduate research students"
+            android:textSize="16sp" />
+		
+    	</RelativeLayout>
+	</ScrollView>
+</RelativeLayout>

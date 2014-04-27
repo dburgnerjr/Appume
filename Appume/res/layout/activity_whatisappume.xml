@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#D1EEEE"
+    tools:context=".Appume" >
+
+    <ImageView
+        android:id="@+id/imgBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/appume_banner" />
+    
+    <TextView
+        android:id="@+id/whatisappume_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgBanner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="What Is An Appume?"
+        android:textSize="20sp"
+        android:textColor="#454545" />
+
+    <TextView
+        android:id="@+id/whatisappume_answer_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/whatisappume_header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="An appume is simply a mobile version of a resume."
+        android:textSize="14sp"
+        android:textColor="#454545" />
+
+    <TextView
+        android:id="@+id/whatisappume_answer_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/whatisappume_answer_1"
+        android:layout_below="@+id/whatisappume_answer_1"
+        android:layout_marginTop="32dp"
+        android:text="It is a new way for a job seeker to showcase their skills and experience to help you land a job."
+        android:textSize="14sp"
+        android:textColor="#454545" />
+    
+</RelativeLayout>

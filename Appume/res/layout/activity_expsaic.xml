@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#D1EEEE"
+    tools:context=".Appume" >
+
+    <ImageView
+      	android:id="@+id/imgBanner"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:src="@drawable/appume_banner" />
+ 
+	<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_below="@+id/imgBanner"
+	    android:background="#D1EEEE" >
+
+    	<RelativeLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content" >
+        
+        <TextView
+            android:id="@+id/expsaic_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+		    android:text="Software Engineer\t\t\t\t2012-2013"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/expsaic_comploc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expsaic_header"
+            android:text="SAIC\t\t\t\t\tSuffolk, VA"
+            android:textSize="16sp" />
+    
+        <TextView
+            android:id="@+id/expsaic_desc_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expsaic_comploc"
+            android:text="*  Developed modules for financial and management information system application used in the development, execution and management of a $140M+ joint training budget for the Department of Defense"
+            android:textSize="16sp" />
+
+		<TextView
+            android:id="@+id/expsaic_desc_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expsaic_desc_1"
+            android:text="*  Utilized Excel templates to generate reports using Windward Reports as part of migration to a web application"
+            android:textSize="16sp" />
+		
+		<TextView
+            android:id="@+id/expsaic_desc_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expsaic_desc_2"
+            android:text="*  Implemented designs of interfaces based on requirements provided using Java for the web presentation layer and Oracle database to store the data provided by the users that involved design of tables and SQL queries constructed from desktop application"
+            android:textSize="16sp" />
+		
+		<TextView
+            android:id="@+id/expsaic_desc_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expsaic_desc_3"
+            android:text="*  Provided technical support to end users regarding system issues resulting in reduced downtime"
+            android:textSize="16sp" />
+		
+		<TextView
+            android:id="@+id/expsaic_desc_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expsaic_desc_4"
+            android:text="*  Diagnosed problems related to the system and reported findings to end users resulting in reduced downtime"
+            android:textSize="16sp" />
+
+		</RelativeLayout>
+	</ScrollView>
+</RelativeLayout>

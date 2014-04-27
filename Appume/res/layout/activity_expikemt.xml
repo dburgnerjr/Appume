@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#D1EEEE"
+    tools:context=".Appume" >
+
+    <ImageView
+      	android:id="@+id/imgBanner"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:src="@drawable/appume_banner" />
+ 
+	<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_below="@+id/imgBanner"
+	    android:background="#D1EEEE" >
+
+    	<RelativeLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content" >
+        
+        <TextView
+            android:id="@+id/expikemt_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+		    android:text="Maintenance Technician\t\t2006-2008"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/expikemt_comploc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expikemt_header"
+            android:text="U. S. Navy (USS Dwight D. Eisenhower)\nNorfolk, VA"
+            android:textSize="16sp" />
+    
+        <TextView
+            android:id="@+id/expikemt_desc_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expikemt_comploc"
+            android:text="*  Provided technical assistance in the repair of various equipment"
+            android:textSize="16sp" />
+
+		<TextView
+            android:id="@+id/expikemt_desc_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expikemt_desc_1"
+            android:text="*  Ensured timely assistance in repair of Ship’s Self-Defense System equipment"
+            android:textSize="16sp" />
+		
+		</RelativeLayout>
+	</ScrollView>
+</RelativeLayout>
