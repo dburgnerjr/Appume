@@ -81,6 +81,14 @@
             android:layout_below="@+id/expsaic_desc_4"
             android:text="*  Diagnosed problems related to the system and reported findings to end users resulting in reduced downtime"
             android:textSize="16sp" />
+		
+		<TextView
+            android:id="@+id/expsaic_desc_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expsaic_desc_5"
+            android:text="* Skills/Technologies Used: Java, Java Server Pages, Eclipse, SQL, Oracle, Hibernate, J2EE, Apache Tomcat, Windward Reports, Javascript"
+            android:textSize="16sp" />
 
 		</RelativeLayout>
 	</ScrollView>

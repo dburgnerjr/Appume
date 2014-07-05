@@ -89,6 +89,14 @@
             android:layout_below="@+id/exptruestone_desc_5"
             android:text="*  Provided subject matter expertise and engineering support to functional development personnel"
             android:textSize="16sp" />
+		
+		<TextView
+            android:id="@+id/exptruestone_desc_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/exptruestone_desc_6"
+            android:text="* Skills/Technologies Used: Java, Java Server Pages, NetBeans, SQL, MySQL, J2EE, Apache Tomcat, Javascript, ActiveMQ, JBoss, Glassfish, Java Web Services, Service Oriented Architecture"
+            android:textSize="16sp" />
 
 		</RelativeLayout>
 	</ScrollView>

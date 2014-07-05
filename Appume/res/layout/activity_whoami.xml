@@ -14,39 +14,49 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/appume_banner" />
-    
-    <TextView
-        android:id="@+id/whoami_header"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imgBanner"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
-        android:text="Who Am I?"
-        android:textSize="20sp"
-        android:textColor="#454545" />
+ 
+    <ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_below="@+id/imgBanner"
+	    android:background="#D1EEEE" >
 
-    <TextView
-        android:id="@+id/whoami_answer_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/whoami_header"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
-        android:text="I am a software engineer with three years development experience supporting military, governmental and commercial programs including the design, development and integration of computer programs utilizing programming skills."
-        android:textSize="14sp"
-        android:textColor="#454545" />
+    	<RelativeLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content" >
     
-    <TextView
-        android:id="@+id/whoami_answer_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/whoami_answer_1"
-        android:layout_below="@+id/whoami_answer_1"
-        android:layout_marginTop="32dp"
-        android:text="I am also a military veteran, having served in the Navy for six years.  I currently hold an active DoD Secret Clearance and CompTIA Security+ CE and Oracle Certified Associate, Java SE 7 Programmer certifications."
-        android:textSize="14sp"
-        android:textColor="#454545" />
+	    <TextView
+    	    android:id="@+id/whoami_header"
+        	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+    	    android:layout_centerHorizontal="true"
+	        android:layout_marginTop="32dp"
+    	    android:text="Who Am I?"
+        	android:textSize="20sp"
+	        android:textColor="#454545" />
+
+    	<TextView
+        	android:id="@+id/whoami_answer_1"
+	        android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+        	android:layout_below="@+id/whoami_header"
+	        android:layout_centerHorizontal="true"
+    	    android:layout_marginTop="32dp"
+        	android:text="I am a software engineer with three years development experience supporting military, governmental and commercial programs including the design, development and integration of computer programs utilizing programming skills.  Experience includes Java-based web applications using Apache Tomcat as a Web server as well as front end user interface design. Currently expanding level of knowledge to include mobile application development, design patterns and software development lifecycle. Would like to learn how to use junit as well as Spring and MVC for my next role."
+	        android:textSize="14sp"
+    	    android:textColor="#454545" />
     
-    
+	    <TextView
+    	    android:id="@+id/whoami_answer_2"
+        	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+     	    android:layout_alignLeft="@+id/whoami_answer_1"
+        	android:layout_below="@+id/whoami_answer_1"
+	        android:layout_marginTop="32dp"
+    	    android:text="I am also a military veteran, having served in the Navy for six years.  I currently hold an active DoD Secret Clearance and CompTIA Security+ CE and Oracle Certified Associate, Java SE 7 Programmer certifications."
+        	android:textSize="14sp"
+	        android:textColor="#454545" />
+ 
+ 		</RelativeLayout>
+	</ScrollView>
 </RelativeLayout>

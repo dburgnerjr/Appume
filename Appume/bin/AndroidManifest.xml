@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.danielburgnerjr.appume"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -58,6 +58,11 @@
 			android:name=".Experience"
 			android:label="Experience"
 			android:theme="@style/ListViewStyle" >
+		</activity>
+		<activity
+			android:name=".ExpCDIMarine"
+			android:label="CDI Marine Company"
+			android:theme="@style/ExperienceTheme" >
 		</activity>
 		<activity
 			android:name=".ExpSAIC"

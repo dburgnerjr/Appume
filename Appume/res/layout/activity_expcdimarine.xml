@@ -26,70 +26,54 @@
         	android:layout_height="wrap_content" >
         
         <TextView
-            android:id="@+id/expnsu_header"
+            android:id="@+id/expcdimarine_header"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-		    android:text="Laboratory Assistant\t\t\t\t2010"
+		    android:text="Programmer\t\t\t\t2014-Present"
             android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/expnsu_comploc"
+            android:id="@+id/expcdimarine_comploc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/expnsu_header"
-            android:text="Norfolk State University\nNorfolk, VA"
+            android:layout_below="@+id/expcdimarine_header"
+            android:text="CDI Marine Company\t\t\t\t\tPortsmouth, VA"
             android:textSize="16sp" />
     
         <TextView
-            android:id="@+id/expnsu_desc_1"
+            android:id="@+id/expcdimarine_desc_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/expnsu_comploc"
-            android:text="*  Developed desktop application that allowed an user to read an electronic medical record written in XML"
+            android:layout_below="@+id/expcdimarine_comploc"
+            android:text="* Developed modules for management information system application used in development, execution and management of purchasing of supplies within the department."
             android:textSize="16sp" />
 
 		<TextView
-            android:id="@+id/expnsu_desc_2"
+            android:id="@+id/expcdimarine_desc_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/expnsu_desc_1"
-            android:text="*  Authored three papers that were published in three separate journals"
+            android:layout_below="@+id/expcdimarine_desc_1"
+            android:text="* Implemented and modified designs of interfaces based on requirements provided using Microsoft Visual Basic for Applications as the development layer and Microsoft Access database to store the data provided by the users that involved the design or redesign of tables and SQL queries."
             android:textSize="16sp" />
 		
 		<TextView
-            android:id="@+id/expnsu_desc_3"
+            android:id="@+id/expcdimarine_desc_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/expnsu_desc_2"
-            android:text="*  Presented two papers on behalf of one professor and five undergraduate students at a conference in Las Vegas, NV"
+            android:layout_below="@+id/expcdimarine_desc_2"
+            android:text="* Provided technical support to end users regarding system issues resulting in reduced downtime"
             android:textSize="16sp" />
 		
 		<TextView
-            android:id="@+id/expnsu_desc_4"
+            android:id="@+id/expcdimarine_desc_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/expnsu_desc_3"
-            android:text="*  Assisted faculty in research and tutoring"
-            android:textSize="16sp" />
-		
-		<TextView
-            android:id="@+id/expnsu_desc_5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/expnsu_desc_4"
-            android:text="*  Mentored undergraduate research students"
-            android:textSize="16sp" />
-		
-		<TextView
-            android:id="@+id/expnsu_desc_6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/expnsu_desc_5"
-            android:text="* Skills/Technologies Used: Java, XML, PGP, XML Digital Signature"
-            android:textSize="16sp" />
-		
-    	</RelativeLayout>
+            android:layout_below="@+id/expcdimarine_desc_3"
+            android:text="* Skills/Technologies Used: Microsoft Access, Visual Basic for Applications, SQL"
+            android:textSize="16sp" />	
+
+		</RelativeLayout>
 	</ScrollView>
 </RelativeLayout>
