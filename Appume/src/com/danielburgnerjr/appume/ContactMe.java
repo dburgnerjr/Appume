@@ -11,10 +11,13 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 import android.widget.ListView;
+import android.content.Context;
+import android.content.ActivityNotFoundException;
 
 public class ContactMe extends Activity {
 	
 	ListView lvView;
+	String strPackName;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +26,7 @@ public class ContactMe extends Activity {
 		
 		// Get ListView object from xml
         lvView = (ListView) findViewById(R.id.contactmeList);
+        strPackName = getApplicationContext().getPackageName();
         
         // Defined Array values to show in ListView
         String[] values = new String[] { "Email:  dburgnerjr@yahoo.com", 
@@ -30,6 +34,8 @@ public class ContactMe extends Activity {
                                          "LinkedIn:  http://www.linkedin.com/in/dburgnerjr",
                                          "GitHub:  https://github.com/dburgnerjr", 
                                          "Google Play Store", 
+                                         "Rate This App",
+                                         "Share This App",
                                         };
         
         // Define a new Adapter
@@ -89,8 +95,36 @@ public class ContactMe extends Activity {
                    case 4:  
                 	   		String strPlayStore = "market://search?q=pub:Daniel Burgner, Jr.";
                 	   		newActivity = new Intent(Intent.ACTION_VIEW,  Uri.parse(strPlayStore));    
-                            startActivity(newActivity);
-                            break;
+                	   		try {
+                	   			startActivity(newActivity);
+                	   		} catch (ActivityNotFoundException e) {
+                	   			startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/developer?id=Daniel Burgner, Jr.")));
+                	   		}
+                	   		break;
+                            
+                   case 5:
+                	   		Uri uri = Uri.parse("market://details?id=" + strPackName);
+                	   		newActivity = new Intent(Intent.ACTION_VIEW, uri);
+                	   		try {
+                	   			startActivity(newActivity);
+                	   		} catch (ActivityNotFoundException e) {
+                	   			startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=" + strPackName)));
+                	   		}
+                	   		break;
+                	   		
+                   case 6:
+                	   		try { 
+                	   			newActivity = new Intent(Intent.ACTION_SEND);  
+                	   			newActivity.setType("text/plain");
+                	   			newActivity.putExtra(Intent.EXTRA_SUBJECT, "Appume");
+                	   			String sAux = "\nLet me recommend you this application\n\n";
+                	   			sAux = sAux + "market://details?id=" + strPackName + "\n\n";
+                	   			newActivity.putExtra(Intent.EXTRA_TEXT, sAux);  
+                	   			startActivity(Intent.createChooser(newActivity, "choose one"));
+                	   		} catch(Exception e) { 
+                	   			//e.toString();
+                	   		} 
+                	   		break;
                  }
             }
 

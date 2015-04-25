@@ -33,7 +33,7 @@
 	    android:layout_below="@+id/skills_header"
 	    android:layout_centerHorizontal="true"
 	    android:layout_marginTop="32dp"
-	    android:text="Programming Languages:  Java, C++, Visual Basic, COBOL, HTML, SQL, XML, FORTRAN"
+	    android:text="Programming Languages:  Java, PHP, C++, Visual Basic, HTML, SQL, XML"
 	    android:textSize="14sp"
 	    android:textColor="#454545" />
 
@@ -44,7 +44,7 @@
 	    android:layout_below="@+id/skills_1"
 	    android:layout_centerVertical="true"
 	    android:layout_marginTop="32dp"
-	    android:text="Technologies:  J2EE, Java Server Pages (JSPs), JDBC, Hibernate, Swing, Servlets, ActiveMQ, JBoss, Service Oriented Architecture (SOA), Java Web Services, Windward Reports, NetBeans, Eclipse, Apache Tomcat, Glassfish, Oracle, MySQL"
+	    android:text="Technologies:  J2EE, Java Server Pages (JSPs), JDBC, Hibernate, Swing, Servlets, ActiveMQ, JBoss, Service Oriented Architecture (SOA), Java Web Services, Windward Reports, NetBeans, Eclipse, Apache Tomcat, Glassfish, Oracle, MySQL, Zend, GitHub, Subversion, Linux, MongoDB, Lucene Solr"
 	    android:textSize="14sp"
 	    android:textColor="#454545" />
 
