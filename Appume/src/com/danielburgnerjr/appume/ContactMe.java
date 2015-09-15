@@ -32,7 +32,9 @@ public class ContactMe extends Activity {
         String[] values = new String[] { "Email:  dburgnerjr@yahoo.com", 
                                          "Phone:  1-757-202-5849",
                                          "LinkedIn:  http://www.linkedin.com/in/dburgnerjr",
-                                         "GitHub:  https://github.com/dburgnerjr", 
+                                         "GitHub:  https://github.com/dburgnerjr",
+                                         "Twitter:  @dburgnerjr",
+                                         "Stack Overflow:  http://stackoverflow.com/users/5111305/daniel-burgner",
                                          "Google Play Store", 
                                          "Rate This App",
                                          "Share This App",
@@ -93,6 +95,18 @@ public class ContactMe extends Activity {
                             break;
                          
                    case 4:  
+		           	   		String strTwitter = "https://twitter.com/dburgnerjr";
+		           	   		newActivity = new Intent(Intent.ACTION_VIEW,  Uri.parse(strTwitter));     
+		                    startActivity(newActivity);
+		                    break;
+		                    
+                   case 5:  
+		           	   		String strStackOverflow = "http://stackoverflow.com/users/5111305/daniel-burgner";
+		           	   		newActivity = new Intent(Intent.ACTION_VIEW,  Uri.parse(strStackOverflow));     
+		                    startActivity(newActivity);
+		                    break;
+
+                   case 6:  
                 	   		String strPlayStore = "market://search?q=pub:Daniel Burgner, Jr.";
                 	   		newActivity = new Intent(Intent.ACTION_VIEW,  Uri.parse(strPlayStore));    
                 	   		try {
@@ -102,7 +116,7 @@ public class ContactMe extends Activity {
                 	   		}
                 	   		break;
                             
-                   case 5:
+                   case 7:
                 	   		Uri uri = Uri.parse("market://details?id=" + strPackName);
                 	   		newActivity = new Intent(Intent.ACTION_VIEW, uri);
                 	   		try {
@@ -112,13 +126,13 @@ public class ContactMe extends Activity {
                 	   		}
                 	   		break;
                 	   		
-                   case 6:
+                   case 8:
                 	   		try { 
                 	   			newActivity = new Intent(Intent.ACTION_SEND);  
                 	   			newActivity.setType("text/plain");
                 	   			newActivity.putExtra(Intent.EXTRA_SUBJECT, "Appume");
                 	   			String sAux = "\nLet me recommend you this application\n\n";
-                	   			sAux = sAux + "market://details?id=" + strPackName + "\n\n";
+                	   			sAux = sAux + "https://play.google.com/store/apps/details?id=" + strPackName + "\n\n";
                 	   			newActivity.putExtra(Intent.EXTRA_TEXT, sAux);  
                 	   			startActivity(Intent.createChooser(newActivity, "choose one"));
                 	   		} catch(Exception e) { 
