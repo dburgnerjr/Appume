@@ -42,7 +42,7 @@
         	android:layout_below="@+id/whoami_header"
 	        android:layout_centerHorizontal="true"
     	    android:layout_marginTop="32dp"
-        	android:text="I am a software engineer with four years development experience supporting military, governmental and commercial programs including the design, development and integration of computer software programs utilizing programming skills.\n\nMy experience includes developing web applications using Apache Tomcat as a Web server as well as front end user interface design of Java-based GUI applications.  In addition to debugging and developing code using NetBeans and Eclipse as an integrated development environment (IDE), I designed user interfaces using Java as a Web presentation layer that was deployed on the production server in my last Java development role.\n\nI am learning and using PHP in my present role where I am involved in participating in standup meetings with Linux as the operating environment along with relational database technologies such as Lucene Solr and MongoDB.  I perform unit testing using PHPUnit.  Currently expanding level of knowledge to include mobile application development and design patterns to include class diagrams, sequence diagrams, triggers, database design as well as using the software development lifecycle.  Would like to learn Jquery, Struts, Spring, MVC and how to test using JUnit as well as write stored procedures for my next role."
+        	android:text="I am a software engineer with four years development experience supporting military, governmental and commercial programs including the design, development and integration of computer software programs utilizing programming skills.\n\nMy experience includes developing web applications using Apache Tomcat as a Web server as well as front end user interface design of Java-based GUI applications.  In addition to debugging and developing code using NetBeans and Eclipse as an integrated development environment (IDE), I designed user interfaces using Java as a Web presentation layer that was deployed on the production server.  I also performed PHP development work using Linux as the operating environment along with relational database technologies such as Lucene Solr and MongoDB and PHPUnit for unit testing."
 	        android:textSize="14sp"
     	    android:textColor="#454545" />
     
@@ -53,7 +53,7 @@
      	    android:layout_alignLeft="@+id/whoami_answer_1"
         	android:layout_below="@+id/whoami_answer_1"
 	        android:layout_marginTop="32dp"
-    	    android:text="I am also a military veteran, having served in the Navy for six years.  I hold an active DoD Secret Clearance and CompTIA Security+ CE and Oracle Certified Associate, Java SE 7 Programmer certifications."
+    	    android:text="I worked in backend Java API development in my last role.  I would like to return to the Java development space with plans to learn JQuery, Struts, Spring, MVC and unit testing using JUnit in my next role.  Would like to expand my level of knowledge to include mobile application development and design patterns to include class diagrams, sequence diagrams, triggers, database design as well as using the software development lifecycle.  I am also open to being an Android developer.\n\nI am also a military veteran, having served in the Navy for six years.  I hold an active DoD Secret Clearance and CompTIA Security+ CE and Oracle Certified Associate, Java SE 7 Programmer certifications."
         	android:textSize="14sp"
 	        android:textColor="#454545" />
  

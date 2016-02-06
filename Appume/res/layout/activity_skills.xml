@@ -44,7 +44,7 @@
 	    android:layout_below="@+id/skills_1"
 	    android:layout_centerVertical="true"
 	    android:layout_marginTop="32dp"
-	    android:text="Technologies:  J2EE, Java Server Pages (JSPs), JDBC, Hibernate, Swing, Servlets, ActiveMQ, JBoss, Service Oriented Architecture (SOA), Java Web Services, Windward Reports, NetBeans, Eclipse, Apache Tomcat, Glassfish, Oracle, MySQL, Zend, GitHub, Subversion, Linux, MongoDB, Lucene Solr"
+	    android:text="Technologies:  J2EE, Java Server Pages (JSPs), JDBC, Hibernate, Servlets, ActiveMQ, JBoss, Service Oriented Architecture (SOA), Java Web Services, Swing, Windward Reports, NetBeans, Eclipse, IntelliJ, Nginx, Spring, Apache Tomcat, Glassfish, Oracle, MySQL, Zend, GitHub, Subversion, Linux, MongoDB, Lucene Solr"
 	    android:textSize="14sp"
 	    android:textColor="#454545" />
 
@@ -55,7 +55,7 @@
 	    android:layout_alignLeft="@+id/skills_2"
 	    android:layout_below="@+id/skills_2"
 	    android:layout_marginTop="32dp"
-	    android:text="Web Development:  Javascript, CSS, VBScript, Perl, DHTML"
+	    android:text="Web Development:  Javascript, JQuery, Javascript Object Notation (JSON), CSS, VBScript, Perl, DHTML"
 	    android:textSize="14sp"
 	    android:textColor="#454545" />
 

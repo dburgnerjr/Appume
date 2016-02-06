@@ -23,7 +23,8 @@ public class Experience extends Activity {
         lvView = (ListView) findViewById(R.id.experienceList);
         
         // Defined Array values to show in ListView
-        String[] values = new String[] { "Software Engineer\nDominion Enterprises",
+        String[] values = new String[] { "Java Developer\nMetova",
+        								 "Software Engineer\nDominion Enterprises",
         								 "Programmer\nCDI Marine Company",
         								 "Software Engineer\nSAIC", 
                                          "Software Engineer\nTruestone",
@@ -64,46 +65,51 @@ public class Experience extends Activity {
                 switch( position ) {
                 
                    case 0:  
-        					newActivity = new Intent(Experience.this, ExpDominionEnt.class);     
+        					newActivity = new Intent(Experience.this, ExpMetova.class);     
         					startActivity(newActivity);
         					break;
         					
                    case 1:  
+        					newActivity = new Intent(Experience.this, ExpDominionEnt.class);     
+        					startActivity(newActivity);
+        					break;
+
+                   case 2:  
                 			newActivity = new Intent(Experience.this, ExpCDIMarine.class);     
                 			startActivity(newActivity);
                 			break;
                 			
-                   case 2:  
+                   case 3:  
                 	   		newActivity = new Intent(Experience.this, ExpSAIC.class);     
                             startActivity(newActivity);
                             break;
                            
-                   case 3:  
+                   case 4:  
                 	   		newActivity = new Intent(Experience.this, ExpTruestone.class);     
                             startActivity(newActivity);
                             break;
                             
-                   case 4:  
+                   case 5:  
                 	   		newActivity = new Intent(Experience.this, ExpUSPTO.class);     
                             startActivity(newActivity);
                             break;
                            
-                   case 5:  
+                   case 6:  
                 	   		newActivity = new Intent(Experience.this, ExpNorfolkState.class);     
                             startActivity(newActivity);
                             break;
                            
-                   case 6:  
+                   case 7:  
                 	   		newActivity = new Intent(Experience.this, ExpIkeWCS.class);     
                             startActivity(newActivity);
                             break;
                             
-                   case 7:  
+                   case 8:  
            	   				newActivity = new Intent(Experience.this, ExpIkeMT.class);     
            	   				startActivity(newActivity);
            	   				break;
 
-                   case 8:  
+                   case 9:  
            	   				newActivity = new Intent(Experience.this, ExpIkePatArm.class);     
            	   				startActivity(newActivity);
            	   				break;

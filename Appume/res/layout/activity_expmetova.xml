@@ -26,60 +26,52 @@
         	android:layout_height="wrap_content" >
         
         <TextView
-            android:id="@+id/expdominionent_header"
+            android:id="@+id/expmetova_header"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-		    android:text="Software Engineer\t\t\t\t2014-2015"
+		    android:text="Java Developer\t\t\t\t2015-2016"
             android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/expdominionent_comploc"
+            android:id="@+id/expmetova_comploc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/expdominionent_header"
-            android:text="Dominion Enterprises\t\t\t\t\tNorfolk, VA"
+            android:layout_below="@+id/expmetova_header"
+            android:text="Metova\t\t\t\t\tFranklin, TN (remote)"
             android:textSize="16sp" />
     
         <TextView
-            android:id="@+id/expdominionent_desc_1"
+            android:id="@+id/expmetova_desc_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/expdominionent_comploc"
-            android:text="* Collaborated with the engineering team to develop the infrastructure that supports exciting new products across multiple platforms and devices."
+            android:layout_below="@+id/expmetova_comploc"
+            android:text="* Developed back-end APIs using Java as the primary language."
             android:textSize="16sp" />
 
 		<TextView
-            android:id="@+id/expdominionent_desc_2"
+            android:id="@+id/expmetova_desc_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/expdominionent_desc_1"
-            android:text="* Contributed to the continued development and maintenance of multiple high-traffic, high availability web sites, mobile sites, and mobile applications."
+            android:layout_below="@+id/expmetova_desc_1"
+            android:text="* Worked on web app that would help the company keep track of its employees."
             android:textSize="16sp" />
 		
 		<TextView
-            android:id="@+id/expdominionent_desc_3"
+            android:id="@+id/expmetova_desc_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/expdominionent_desc_2"
-            android:text="* Contributed to systems and applications which process, transform and generate data from and for many partners on a daily basis."
+            android:layout_below="@+id/expmetova_desc_2"
+            android:text="* Used proprietary tools to help track progress of software projects."
             android:textSize="16sp" />
 		
 		<TextView
-            android:id="@+id/expdominionent_desc_4"
+            android:id="@+id/expmetova_desc_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/expdominionent_desc_3"
-            android:text="* Mentored a team of college students that developed a mobile app during a company-sponsored hackathon."
-            android:textSize="16sp" />	
-            
-		<TextView
-            android:id="@+id/expdominionent_desc_5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/expdominionent_desc_4"
-            android:text="* Skills/Technologies Used:  PHP, SQL, Linux, Apache Tomcat, MySQL, GitHub, Zend, MongoDB, Lucene Solr, Oracle, Javascript, JQuery, Javascript Object Notation (JSON), NetBeans, Eclipse"
+            android:layout_below="@+id/expmetova_desc_3"
+            android:text="* Skills/Technologies Used:  Java, Java Server Pages, IntelliJ, Apache Tomcat, Nginx, Spring"
             android:textSize="16sp" />
 
 		</RelativeLayout>

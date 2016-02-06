@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.danielburgnerjr.appume2015"
     android:versionCode="2"
-    android:versionName="1.2015.1" >
+    android:versionName="1.2015.2" >
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -58,6 +58,11 @@
 			android:name=".Experience"
 			android:label="Experience"
 			android:theme="@style/ListViewStyle" >
+		</activity>
+		<activity
+			android:name=".ExpMetova"
+			android:label="Metova"
+			android:theme="@style/ExperienceTheme" >
 		</activity>
 		<activity
 			android:name=".ExpDominionEnt"
