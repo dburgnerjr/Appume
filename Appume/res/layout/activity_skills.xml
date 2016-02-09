@@ -2,12 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#D1EEEE"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#D1EEEE"
-    tools:context=".Appume" >
+    tools:context=".Skills" >
 
     <ImageView
         android:id="@+id/imgBanner"
@@ -32,7 +31,7 @@
 	    android:layout_height="wrap_content"
 	    android:layout_below="@+id/skills_header"
 	    android:layout_centerHorizontal="true"
-	    android:layout_marginTop="32dp"
+	    android:layout_marginTop="24dp"
 	    android:text="Programming Languages:  Java, PHP, C++, Visual Basic, HTML, SQL, XML"
 	    android:textSize="14sp"
 	    android:textColor="#454545" />
@@ -43,7 +42,7 @@
 	    android:layout_height="wrap_content"
 	    android:layout_below="@+id/skills_1"
 	    android:layout_centerVertical="true"
-	    android:layout_marginTop="32dp"
+	    android:layout_marginTop="24dp"
 	    android:text="Technologies:  J2EE, Java Server Pages (JSPs), JDBC, Hibernate, Servlets, ActiveMQ, JBoss, Service Oriented Architecture (SOA), Java Web Services, Swing, Windward Reports, NetBeans, Eclipse, IntelliJ, Nginx, Spring, Apache Tomcat, Glassfish, Oracle, MySQL, Zend, GitHub, Subversion, Linux, MongoDB, Lucene Solr"
 	    android:textSize="14sp"
 	    android:textColor="#454545" />
@@ -54,9 +53,62 @@
 	    android:layout_height="wrap_content"
 	    android:layout_alignLeft="@+id/skills_2"
 	    android:layout_below="@+id/skills_2"
-	    android:layout_marginTop="32dp"
+	    android:layout_marginTop="24dp"
 	    android:text="Web Development:  Javascript, JQuery, Javascript Object Notation (JSON), CSS, VBScript, Perl, DHTML"
 	    android:textSize="14sp"
 	    android:textColor="#454545" />
 
+	<LinearLayout
+        android:id="@+id/llMainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_above="@+id/llPrevNext"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:layout_weight="0.5"
+            android:background="#D1EEEE" />
+
+        <Button
+            android:id="@+id/btnMainMenu"
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:layout_weight="0.5"
+            android:onClick="mainMenu"
+            android:text="@string/mainMenu"
+            android:background="#D1EEEE"
+            android:textColor="#454545" />
+    </LinearLayout>
+    
+	<LinearLayout
+        android:id="@+id/llPrevNext"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnPrevious"
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:layout_weight="0.5"
+            android:onClick="prevPage"
+            android:text="@string/certifications"
+            android:background="#D1EEEE"
+            android:textColor="#454545" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:layout_weight="0.5"
+            android:onClick="nextPage"
+            android:text="@string/education"
+            android:background="#D1EEEE"
+            android:textColor="#454545" />
+    </LinearLayout>
+	
 </RelativeLayout>

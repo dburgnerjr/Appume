@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
@@ -145,11 +146,26 @@ public class ContactMe extends Activity {
          }); 
 	}
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.appume, menu);
-		return true;
+	public void prevPage(View view) {
+		Intent intI = new Intent(this, Recommendations.class);
+		startActivity(intI);
+		finish();
 	}
+
+	public void mainMenu(View view) {
+		Intent intI = new Intent(this, Appume.class);
+		startActivity(intI);
+		finish();
+	}
+	
+	public boolean onKeyDown(int nKeyCode, KeyEvent keEvent) {
+		String strBackMessage = "Press Recommendations to go to the previous screen ";
+		strBackMessage += "or Main Menu to return to main menu.";
+		if (nKeyCode == KeyEvent.KEYCODE_BACK) {
+			Toast.makeText(getApplicationContext(), strBackMessage, Toast.LENGTH_SHORT).show();
+		    return true;
+		}
+		return super.onKeyDown(nKeyCode, keEvent);
+   }
 
 }

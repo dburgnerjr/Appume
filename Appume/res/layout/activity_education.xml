@@ -2,12 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#D1EEEE"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#D1EEEE"
-    tools:context=".Appume" >
+    tools:context=".Education" >
 
     <ImageView
         android:id="@+id/imgBanner"
@@ -67,4 +66,57 @@
         android:textSize="14sp"
         android:textColor="#454545" />
 
+    <LinearLayout
+        android:id="@+id/llMainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_above="@+id/llPrevNext"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:layout_weight="0.5"
+            android:background="#D1EEEE" />
+
+        <Button
+            android:id="@+id/btnMainMenu"
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:layout_weight="0.5"
+            android:onClick="mainMenu"
+            android:text="@string/mainMenu"
+            android:background="#D1EEEE"
+            android:textColor="#454545" />
+    </LinearLayout>
+    
+	<LinearLayout
+        android:id="@+id/llPrevNext"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnPrevious"
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:layout_weight="0.5"
+            android:onClick="prevPage"
+            android:text="@string/skills"
+            android:background="#D1EEEE"
+            android:textColor="#454545" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:layout_weight="0.5"
+            android:onClick="nextPage"
+            android:text="@string/experience"
+            android:background="#D1EEEE"
+            android:textColor="#454545" />
+    </LinearLayout>
+    
 </RelativeLayout>

@@ -3,5 +3,16 @@
 
     <string name="app_name">Appume</string>
     <string name="action_settings">Settings</string>
+    
+    <string name="whatIsAppume">What Is An Appume?</string>
+    <string name="whoAmI">Who Am I?</string>
+    <string name="certifications">Certifications</string>
+    <string name="skills">Skills</string>
+    <string name="education">Education</string>
+    <string name="experience">Experience</string>
+    <string name="recommendations">Recommendations</string>
+    <string name="contactMe">Contact Me</string>
+    
+    <string name="mainMenu">Main Menu</string>
 
 </resources>
