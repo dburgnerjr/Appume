@@ -59,16 +59,19 @@ public class Recommendations extends Activity {
                    case 0:  
                 	   		newActivity = new Intent(Recommendations.this, RecJermaineJemmott.class);     
                             startActivity(newActivity);
+                            finish();
                             break;
                             
                    case 1:  
                 	   		newActivity = new Intent(Recommendations.this, RecFrankBird.class);     
                             startActivity(newActivity);
+                            finish();
                             break;
                             
                    case 2:  
                 	   		newActivity = new Intent(Recommendations.this, RecLeeAsh.class);     
                             startActivity(newActivity);
+                            finish();
                             break;
                             
                 }
