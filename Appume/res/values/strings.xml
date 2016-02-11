@@ -13,6 +13,17 @@
     <string name="recommendations">Recommendations</string>
     <string name="contactMe">Contact Me</string>
     
+    <string name="metova">Metova</string>
+    <string name="dominionEnterprises">Dominion\nEnterprises</string>
+    <string name="cdiMarineCompany">CDI Marine Company</string>
+    <string name="saic">SAIC</string>
+    <string name="truestone">Truestone</string>
+    <string name="uspto">USPTO</string>
+    <string name="norfolkState">Norfolk State</string>
+    <string name="ikeWCS">Eisenhower (WCS)</string>
+    <string name="ikeTech">Eisenhower (Technician)</string>
+    <string name="ikePatArm">Eisenhower (Patrolman/Armorer)</string>
+
     <string name="jermaineJemmott">Jermaine Jemmott</string>
     <string name="frankBird">Frank M. Bird</string>
     <string name="leeAsh">Lee Ash</string>

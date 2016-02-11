@@ -69,51 +69,61 @@ public class Experience extends Activity {
                    case 0:  
         					newActivity = new Intent(Experience.this, ExpMetova.class);     
         					startActivity(newActivity);
+        					finish();
         					break;
         					
                    case 1:  
         					newActivity = new Intent(Experience.this, ExpDominionEnt.class);     
         					startActivity(newActivity);
+        					finish();
         					break;
 
                    case 2:  
                 			newActivity = new Intent(Experience.this, ExpCDIMarine.class);     
                 			startActivity(newActivity);
+                			finish();
                 			break;
                 			
                    case 3:  
                 	   		newActivity = new Intent(Experience.this, ExpSAIC.class);     
                             startActivity(newActivity);
+                            finish();
                             break;
                            
                    case 4:  
                 	   		newActivity = new Intent(Experience.this, ExpTruestone.class);     
                             startActivity(newActivity);
+                            finish();
                             break;
                             
                    case 5:  
                 	   		newActivity = new Intent(Experience.this, ExpUSPTO.class);     
                             startActivity(newActivity);
+                            finish();
                             break;
                            
                    case 6:  
                 	   		newActivity = new Intent(Experience.this, ExpNorfolkState.class);     
                             startActivity(newActivity);
+                            finish();
                             break;
                            
                    case 7:  
                 	   		newActivity = new Intent(Experience.this, ExpIkeWCS.class);     
                             startActivity(newActivity);
+                            finish();
                             break;
                             
                    case 8:  
            	   				newActivity = new Intent(Experience.this, ExpIkeMT.class);     
            	   				startActivity(newActivity);
+           	   				finish();
            	   				break;
 
                    case 9:  
            	   				newActivity = new Intent(Experience.this, ExpIkePatArm.class);     
            	   				startActivity(newActivity);
+           	   				finish();
            	   				break;
 
                 }
