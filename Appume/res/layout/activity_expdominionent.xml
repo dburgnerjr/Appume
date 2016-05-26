@@ -40,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/expdominionent_header"
-            android:text="Dominion Enterprises\t\t\t\t\tNorfolk, VA"
+            android:text="Dominion Enterprises\t\t\tNorfolk, VA"
             android:textSize="16sp" />
     
         <TextView
@@ -99,7 +99,7 @@
             android:layout_height="50sp"
             android:layout_weight="0.5"
             android:onClick="prevPage"
-            android:text="@string/metova"
+            android:text="@string/xcelerateSolutions"
             android:textSize="14sp"
             android:textStyle="bold"
             android:background="#D1EEEE"

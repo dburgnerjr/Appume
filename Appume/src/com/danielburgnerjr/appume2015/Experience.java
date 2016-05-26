@@ -25,7 +25,7 @@ public class Experience extends Activity {
         lvView = (ListView) findViewById(R.id.experienceList);
         
         // Defined Array values to show in ListView
-        String[] values = new String[] { "Java Developer\nMetova",
+        String[] values = new String[] { "Software Systems Engineer\nXcelerate Solutions",
         								 "Software Engineer\nDominion Enterprises",
         								 "Programmer\nCDI Marine Company",
         								 "Software Engineer\nSAIC", 
@@ -67,7 +67,7 @@ public class Experience extends Activity {
                 switch( position ) {
                 
                    case 0:  
-        					newActivity = new Intent(Experience.this, ExpMetova.class);     
+        					newActivity = new Intent(Experience.this, ExpXcelerateSol.class);     
         					startActivity(newActivity);
         					finish();
         					break;

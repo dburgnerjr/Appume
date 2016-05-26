@@ -16,7 +16,7 @@ public class ExpDominionEnt extends Activity {
 	}
 
 	public void prevPage(View view) {
-		Intent intI = new Intent(this, ExpMetova.class);
+		Intent intI = new Intent(this, ExpXcelerateSol.class);
 		startActivity(intI);
 		finish();
 	}
@@ -40,7 +40,7 @@ public class ExpDominionEnt extends Activity {
 	}
 	
 	public boolean onKeyDown(int nKeyCode, KeyEvent keEvent) {
-		String strBackMessage = "Press Metova to go to the previous screen, ";
+		String strBackMessage = "Press Xcelerate Solutions to go to the previous screen, ";
 		strBackMessage += "CDI Marine Company to go to the next screen, ";
 		strBackMessage += "Experience to return to experience menu ";
 		strBackMessage += "or Main Menu to return to main menu.";

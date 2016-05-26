@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.danielburgnerjr.appume2015"
-    android:versionCode="4"
-    android:versionName="1.2015.3" >
+    android:versionCode="5"
+    android:versionName="1.2015.4" >
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -60,8 +60,8 @@
 			android:theme="@style/ListViewStyle" >
 		</activity>
 		<activity
-			android:name=".ExpMetova"
-			android:label="Metova"
+			android:name=".ExpXcelerateSol"
+			android:label="Xcelerate Solutions"
 			android:theme="@style/ExperienceTheme" >
 		</activity>
 		<activity

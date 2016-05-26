@@ -8,11 +8,11 @@ import android.view.View;
 import android.widget.Toast;
 
 
-public class ExpMetova extends Activity {
+public class ExpXcelerateSol extends Activity {
 	
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_expmetova);
+		setContentView(R.layout.activity_expxcelerate);
 	}
 
 	public void nextPage(View view) {
